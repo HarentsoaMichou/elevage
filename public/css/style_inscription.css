@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('../Image/inscription.jfif'); /* Chemin vers votre image */
+    background-size: cover; /* Adapte l'image à l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+}
+.registration-box {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 450px;
+}
+h2 {
+    color: #5cb85c; /* Vert pour le thème de Noël */
+    margin-bottom: 20px;
+}
+
+.signin-link a {
+    color: #337ab7; /* Bleu Bootstrap pour contraste */
+    text-decoration: none;
+}
+
+.signin-link a:hover {
+    text-decoration: underline;
+}

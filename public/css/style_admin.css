@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('../Image/1.avif'); /* Image de fond */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.admin-container {
+    background-color: rgba(255, 255, 255, 0.95); /* Fond blanc semi-transparent */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 800px;
+}
+.admin-container h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+table th, table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+table th {
+    background-color: #f8f9fa; /* Fond gris clair pour les en-têtes */
+    color: #333;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternance des couleurs de lignes */
+}
+table tr:hover {
+    background-color: #f1f9ff; /* Surlignage au survol */
+}
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+.btn-validate {
+    background-color: #28a745; /* Vert pour Valider */
+    color: white;
+}
+.btn-refuse {
+    background-color: #dc3545; /* Rouge pour Refuser */
+    color: white;
+}
